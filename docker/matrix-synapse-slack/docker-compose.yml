@@ -1,0 +1,44 @@
+version: '3.3'
+
+services:
+  
+  synapse:
+    container_name: synapse_web
+    image: matrixdotorg/synapse:latest
+    restart: always
+    ports:
+      - "8008:8008"
+      - "4143:443"
+    volumes:
+      - ./synapse-data:/data
+    environment:
+       VIRTUAL_HOST: www.tuweb.com
+       VIRTUAL_PORT: 8008
+       LETSENCRYPT_HOST: www.tuweb.com
+       LETSENCRYPT_EMAIL: tucorreo@electronico.com
+
+
+  synapse_admin:
+    container_name: synapse_admin
+    image: awesometechnologies/synapse-admin:latest
+    restart: unless-stopped
+    ports:
+      - 8009:80
+
+
+#
+#
+#
+#URL donde conseguí instalarlo = https://shownotes.opensourceisawesome.com/matrix-server-install-via-docker/
+#
+#Primero ejecutar este comando antes de ejecutar el docker-compose
+#
+# $ docker run -it --rm -v /home/pi/docker/matrix-synapse-slack/synapse-data:/data -e SYNAPSE_SERVER_NAME=matrix-elunicoantivirus.duckdns.org -e SYNAPSE_REPORT_STATS=no matrixdotorg/synapse:latest generate
+#
+#Después modificar el archivo .yaml y poner los datos nuestros
+#
+#
+#
+#
+#
+#
