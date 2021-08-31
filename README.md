@@ -17,17 +17,17 @@ Como siempre, cualquier contribución es bienvenida, simplemente forkeá este re
 Si el nombre del capítulo no tiene link, es porque no necesité postear ningún archivo.
 
 1. Docker
-   1. [Docker-compose](#) /// [Archivos]() /// [video]()
-   4. [Instalación de Portainer](#) /// [Archivos]() /// [video]()
-   4. [Instalación de NGINX PROXY MANAGER](#) /// [Archivos]() /// [video]()
-   5. [Instalación de aaPanel](#) /// [Archivos]() /// [video]()
-   6. [Instalación de MATRIX (Slack-Casero)](#) /// [Archivos]() /// [video]()
-   7. [Próximamente ...](#) /// [Archivos]() /// [video]()
+   1. [Docker-compose](#) /// [Archivos](#) /// [video](#)
+   4. [Instalación de Portainer](#) /// [Archivos](#) /// [video](#)
+   4. [Instalación de NGINX PROXY MANAGER](#) /// [Archivos](#) /// [video](#)
+   5. [Instalación de aaPanel](#) /// [Archivos](#) /// [video]()
+   6. [Instalación de MATRIX (Slack-Casero)](#) /// [Archivos](#) /// [video](#)
+   7. [Próximamente ...](#) /// [Archivos](#) /// [video](#)
 
 
 2. Raspberry
-   1. [Instalación de LXC y LXD en Raspberry y Instalar OpenMediaVault y aaPanel (Parte 1)](#) /// [Archivos]() /// [video](https://youtu.be/fGyJSpakVrw)
-   2. [Instalación de LXC y LXD en Raspberry y Instalar OpenMediaVault y aaPanel (Parte 2)](#) /// [Archivos]() /// [video](https://youtu.be/BEfG0V_Tp48)
-   3. [Instalación de LXC y LXD en Raspberry y Instalar OpenMediaVault y aaPanel (Parte 3)](#) /// [Archivos]() /// [video](https://youtu.be/RRtbkbcq4bc)
-   4. [Instalación de LXC y LXD en Raspberry y Instalar OpenMediaVault y aaPanel (Parte 4)](#) /// [Archivos]() /// [video](https://youtu.be/M52CYq8bPVI)
+   1. [Instalación de LXC y LXD en Raspberry y Instalar OpenMediaVault y aaPanel (Parte 1)](#) /// [Archivos](#) /// [video](https://youtu.be/fGyJSpakVrw)
+   2. [Instalación de LXC y LXD en Raspberry y Instalar OpenMediaVault y aaPanel (Parte 2)](#) /// [Archivos](#) /// [video](https://youtu.be/BEfG0V_Tp48)
+   3. [Instalación de LXC y LXD en Raspberry y Instalar OpenMediaVault y aaPanel (Parte 3)](#) /// [Archivos](#) /// [video](https://youtu.be/RRtbkbcq4bc)
+   4. [Instalación de LXC y LXD en Raspberry y Instalar OpenMediaVault y aaPanel (Parte 4)](#) /// [Archivos](#) /// [video](https://youtu.be/M52CYq8bPVI)
 
