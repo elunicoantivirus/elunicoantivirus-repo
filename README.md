@@ -17,20 +17,17 @@ Como siempre, cualquier contribución es bienvenida, simplemente forkeá este re
 Si el nombre del capítulo no tiene link, es porque no necesité postear ningún archivo.
 
 1. Docker
-   1. Introducción a Docker/ [video]()
-   2. Imágenes / [video]()
-   3. Volúmenes y puertos / [video]()
-   4. [Docker-compose](./docker/4) / [video]()
-   5. [Networking](./docker/5) / [video]()
-   6. [Multi Stage Builds](./docker/6) / [video]()
-   7. [CI/CD](https://github.com/peladonerd/hola-docker) / [video]()
-   8. [Swarm](./docker/8) / [video]() 
-   9. [Multi-Arch Builds](./docker/9) / [video]() 
-   10. [Docker Registry](./docker/10) / [video]() 
-   11. [Buildkit](./docker/11) / [video]()
-   12. [Curso Docker Completo 2021](./docker/12) / [video]()
+   1. [Docker-compose](./docker/4) / [video]()
+   4. [Instalación de Portainer](./docker/4) / [video]()
+   4. [Instalación de NGINX PROXY MANAGER](./docker/4) / [video]()
+   5. [Instalación de aaPanel](./docker/4) / [video]()
+   6. [Instalación de MATRIX (Slack-Casero)](./docker/4) / [video]()
+   7. [Próximamente ...](./docker/4) / [video]()
+
 
 2. Raspberry
-   1. [Instalación de Docker en Raspberry y compartir archivos samba](./raspi/1) / [video]()
-
+   1. [Instalación de LXC y LXD en Raspberry y Instalar OpenMediaVault y aaPanel (Parte 1)](./raspi/1) / [video](https://youtu.be/fGyJSpakVrw)
+   2. [Instalación de LXC y LXD en Raspberry y Instalar OpenMediaVault y aaPanel (Parte 2)](./raspi/1) / [video](https://youtu.be/BEfG0V_Tp48)
+   3. [Instalación de LXC y LXD en Raspberry y Instalar OpenMediaVault y aaPanel (Parte 3)](./raspi/1) / [video](https://youtu.be/RRtbkbcq4bc)
+   4. [Instalación de LXC y LXD en Raspberry y Instalar OpenMediaVault y aaPanel (Parte 4)](./raspi/1) / [video](https://youtu.be/M52CYq8bPVI)
 
