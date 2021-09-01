@@ -18,7 +18,7 @@ services:
       - ./data:/data
       - ./letsencrypt:/etc/letsencrypt
   db:
-    container_name: nginx-proxy-manager_web
+    container_name: nginx-proxy-manager_db
     image: 'alunicero/mariadb:raspi1.0'
     restart: unless-stopped
     environment:
