@@ -2,7 +2,7 @@ version: "3.4"
 services:
   app:
     container_name: nginx-proxy-manager_web
-    image: 'jc21/nginx-proxy-manager:latest'
+    image: 'alunicero/nginx-proxy-manager:raspi1.0'
     restart: unless-stopped
     ports:
       - '80:80'
@@ -19,7 +19,7 @@ services:
       - ./letsencrypt:/etc/letsencrypt
   db:
     container_name: nginx-proxy-manager_web
-    image: 'jc21/mariadb-aria:latest'
+    image: 'alunicero/mariadb:raspi1.0'
     restart: unless-stopped
     environment:
       MYSQL_ROOT_PASSWORD: 'npm'
