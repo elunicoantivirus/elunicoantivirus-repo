@@ -3,7 +3,7 @@ version: '3.4'
 services:
   portainer:
     container_name: portainer
-    image: portainer/portainer-ce
+    image: alunicero/portainer:1.0
     restart: always
     ports:
       - "9000:9000"
