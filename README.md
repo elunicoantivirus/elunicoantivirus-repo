@@ -18,9 +18,9 @@ Si el nombre del capítulo no tiene link, es porque no necesité postear ningún
 
 1. Docker
    1. [Docker-compose](#) /// [Archivos](#) /// [video](#)
-   4. [Instalación de Portainer](#) /// [Archivos](#) /// [video](#)
-   4. [Instalación de NGINX PROXY MANAGER](#) /// [Archivos](#) /// [video](#)
-   5. [Instalación de aaPanel](#) /// [Archivos](#) /// [video]()
+   4. [Instalación de Portainer](#) /// [Archivos](https://github.com/elunicoantivirus/elunicoantivirus-repo/tree/main/docker/portainer) /// [video](https://youtu.be/953BVsBBPGE)
+   4. [Instalación de NGINX PROXY MANAGER](#) /// [Archivos](https://github.com/elunicoantivirus/elunicoantivirus-repo/tree/main/docker/nginx-proxy-manager) /// [video](https://youtu.be/oLu165VWbhc)
+   5. [Instalación de aaPanel](#) /// [Archivos](https://github.com/elunicoantivirus/elunicoantivirus-repo/tree/main/docker/aapanel) /// [video](https://youtu.be/hZhoali6wSU)
    6. [Instalación de MATRIX (Slack-Casero)](#) /// [Archivos](#) /// [video](#)
    7. [Próximamente ...](#) /// [Archivos](#) /// [video](#)
 
@@ -30,4 +30,5 @@ Si el nombre del capítulo no tiene link, es porque no necesité postear ningún
    2. [Instalación de LXC y LXD en Raspberry y Instalar OpenMediaVault y aaPanel (Parte 2)](#) /// [Archivos](#) /// [video](https://youtu.be/BEfG0V_Tp48)
    3. [Instalación de LXC y LXD en Raspberry y Instalar OpenMediaVault y aaPanel (Parte 3)](#) /// [Archivos](#) /// [video](https://youtu.be/RRtbkbcq4bc)
    4. [Instalación de LXC y LXD en Raspberry y Instalar OpenMediaVault y aaPanel (Parte 4)](#) /// [Archivos](#) /// [video](https://youtu.be/M52CYq8bPVI)
+   5. [Próximamente ...](#) /// [Archivos](#) /// [video](#)
 
