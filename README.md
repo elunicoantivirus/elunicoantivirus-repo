@@ -17,11 +17,11 @@ Como siempre, cualquier contribución es bienvenida, simplemente forkeá este re
 Si el nombre del capítulo no tiene link, es porque no necesité postear ningún archivo.
 
 1. Docker
-   1. [Docker-compose](#) /// [Archivos](#) /// [video](#)
-   4. [Instalación de Portainer] /// [Archivos](https://github.com/elunicoantivirus/elunicoantivirus-repo/tree/main/docker/portainer) /// [video](https://youtu.be/953BVsBBPGE)
-   4. [Instalación de NGINX PROXY MANAGER](#) /// [Archivos](https://github.com/elunicoantivirus/elunicoantivirus-repo/tree/main/docker/nginx-proxy-manager) /// [video](https://youtu.be/oLu165VWbhc)
-   5. [Instalación de aaPanel](#) /// [Archivos](https://github.com/elunicoantivirus/elunicoantivirus-repo/tree/main/docker/aapanel) /// [video](https://youtu.be/hZhoali6wSU)
-   6. [Instalación de MATRIX (Slack-Casero)](#) /// [Archivos](#) /// [video](#)
+   1. [ Docker-compose ] /// [Archivos](#) /// [video](#)
+   4. [ Instalación de Portainer ] /// [Archivos](https://github.com/elunicoantivirus/elunicoantivirus-repo/tree/main/docker/portainer) /// [video](https://youtu.be/953BVsBBPGE)
+   4. [ Instalación de NGINX PROXY MANAGER ] /// [Archivos](https://github.com/elunicoantivirus/elunicoantivirus-repo/tree/main/docker/nginx-proxy-manager) /// [video](https://youtu.be/oLu165VWbhc)
+   5. [ Instalación de aaPanel ] /// [Archivos](https://github.com/elunicoantivirus/elunicoantivirus-repo/tree/main/docker/aapanel) /// [video](https://youtu.be/hZhoali6wSU)
+   6. [ Instalación de MATRIX (Slack-Casero) ](#) /// [Archivos](#) /// [video](#)
    7. [Próximamente ...](#) /// [Archivos](#) /// [video](#)
 
 
