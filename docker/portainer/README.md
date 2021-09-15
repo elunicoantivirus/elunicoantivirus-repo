@@ -3,7 +3,6 @@
 
 
 (OPCION 1)  --------------------->>>   Usando solo un archivo, este texto de docker-compose
-(Vídeo de Ayuda)  --------------------->>>   https://youtu.be/953BVsBBPGE (RECOMENDADO)
 
 
 ## Docker-Compose
