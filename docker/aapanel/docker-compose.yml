@@ -19,3 +19,86 @@ services:
       - ./aapanel/mysql_data:/www/server/data
       - ./aapanel/vhost:/www/server/panel/vhost
       - ./aapanel/logs:/www/wwwlogs
+
+
+
+#
+#
+#
+#
+# ------------------------->>> OPCION 1 <<<---(RECOMENDADA)------------------------
+#
+#  1. Descargarse de mi GitHub el fix.sh (Dejaré el enlace de archivo y vídeo)
+#
+#
+#     2. Después pasar el sh al host / donde tengas corriendo docker
+#
+#     
+#     3. Después editar fix.sh poniendo tus datos:
+# 
+#        ---->>> ( el ID de tu docker en los 3 sitios
+#                     donde aparece un ID ) de ejemplo de Docker
+#
+#                y colocando también:  
+#
+#        ---->>> ( la ruta donde vas a ejecutar el "fix.sh" para que te extraiga 
+#                      en un archivo la "lista.sh" de tus contenedores ) para
+#                              que pueda el script comparar
+#                        los datos y ejecute el comando por tí.
+#
+#
+#      4. Ejecutar tantas veces como desees. Si no accedes tendrás que                        
+#                reiniciar tu host y volver a ejecutar el fix.sh
+#                       
+#  
+#                       
+#  
+#                       
+#                         
+#          
+#    * Esta es la única solución que he encontrado al aapanel en Docker.
+#        Me ha llevado 3 días sín dormir y mucha droga en el cuerpo.
+#
+#
+#
+#
+# ------------------------->>> OPCION 2 <<<----------------------------------
+#
+#
+#
+#
+# AYUDA A MANO RESET PANEL Y DATOS ABAJO
+#
+#
+#
+#
+#
+#
+#
+#$ docker-compose up
+
+#$ sudo docker ps
+
+#$ docker exec -it ID bash
+
+##Restart Service
+
+#$ rm -f /www/server/panel/data/admin_path.pl $ /etc/init.d/bt default (NO USAR ESTE COMANDO)
+
+#$ /etc/init.d/bt restart
+
+##Resets Password
+
+#$ /etc/init.d/bt default
+
+#===========================================
+
+#aaPanel: https:// TU IP : (Port)
+
+#username: aapanel
+
+#password: aapanel
+#
+#
+#
+#

@@ -19,12 +19,12 @@ echo "#                              ESAS 2 COSAS NO TIENES BIEN.               
 
 docker ps > lista.sh
 
-if grep -q "b8bba2372e79" /home/pi/Desktop/docker/aapanel/lista.sh
+if grep -q "44ac74443509d" /home/pi/docker/aapanel/lista.sh
 
 then
 
-docker exec -dit b8bba2372e79 /etc/init.d/bt restart
-docker exec -dit b8bba2372e79 /etc/init.d/bt reload
+docker exec -dit 4ac74443509d /etc/init.d/bt restart
+docker exec -dit 4ac74443509d /etc/init.d/bt reload
 
 
 echo "#                                                                                        #"
