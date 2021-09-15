@@ -48,7 +48,7 @@ services:
 #
 #
 #      4. Ejecutar tantas veces como desees. Si no accedes tendrás que                        
-#                reiniciar tu docker y volver a ejecutar el fix.sh
+#                reiniciar tu host y volver a ejecutar el fix.sh
 #                       
 #  
 #                       
@@ -97,7 +97,7 @@ services:
 
 #username: aapanel
 
-#password: aapanel123
+#password: aapanel
 #
 #
 #
