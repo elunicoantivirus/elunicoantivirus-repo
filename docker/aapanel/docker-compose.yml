@@ -12,6 +12,7 @@ services:
       - "1120:20" 
       - "1121:21"
       - "1122:22"
+      - "1306:3306"
     volumes: 
       - ./aapanel/wwwroot:/www/wwwroot
       - ./aapanel/backups:/www/backup
