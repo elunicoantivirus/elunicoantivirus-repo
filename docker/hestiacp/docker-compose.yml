@@ -1,0 +1,55 @@
+version: "3.4"
+services:
+  app:
+    container_name: Hestia-CP
+    image: 'smied/hestia-cp:latest'
+    restart: always
+    ports:
+      
+      - 1111:8083/tcp 
+      - 1023:23/tcp 
+      - 1080:80/tcp 
+      - 1443:443/tcp 
+      - 1020:20/tcp 
+      - 1021:21/tcp 
+      - 12000-12100:12000-12100/tcp 
+      - 25:25/tcp 
+      - 1053:53/udp 
+      - 1053:53/tcp 
+      - 465:465/tcp 
+      - 587:587/tcp 
+      - 110:110/tcp 
+      - 993:993/tcp 
+      - 995:995/tcp 
+      - 143:143/tcp 
+      - 1306:3306/tcp
+    environment:
+      
+      TZ=Europe/Moscow
+    volumes:
+      
+      - ./Hestia-home:/home 
+      - ./Hestia-usr:/usr 
+      - ./Hestia-backup:/backup 
+      - ./Hestia-etc:/etc 
+      - ./Hestia-var:/var
+      - /sys/fs/cgroup:/sys/fs/cgroup:ro
+     tmpfs: 
+      - tmp:/tmp 
+      - run:/run  
+      - run/lock:/run/lock 
+     privileged:  
+
+#
+#docker-compose up -d
+#
+#URL = (TU IP) : (81)
+#
+#Default Admin User:
+#Email:    admin@example.com
+#Password: changeme
+#
+#
+#
+#
+
