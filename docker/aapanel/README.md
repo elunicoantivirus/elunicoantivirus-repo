@@ -51,21 +51,17 @@ services:
 #
 #-------3º-------Despues editar el archivo "fix.sh" poniendo tus datos:
 #
-#-------4º-------edita en el archivo ( el ID de tu docker en los 3 sitios
+#-------4º-------edita en el archivo ( el ID de tu docker sustituyelo por el mio
 #donde aparece un ID ) de ejemplo de Docker
+# 
 #
-#-------5º-------y editar tambien:  
-#
-#-------6º-------edita en el archivo (la ruta donde vas a ejecutar el "fix.sh") para que te extraiga 
-#en un archivo la "lista.sh" de tus contenedores para
-#que pueda el script comparar
-#los datos y ejecute el comando por ti.
 #
 #
 #-------***-------Ejecutar tantas veces como desees. Si no accedes tendras que                        
-#reiniciar tu docker y si no funciona entonces tu host y volver a ejecutar el fix.sh
+#reiniciar tu host y volver a ejecutar el fix.sh
 #
-#
+#este fix vale para la version (latest de amd64 que subí en ducker hub y también para la arm64 que cree con mi raspberry pi4)
+#si piensas usarlo en tu raspberry real como la mía = debes de usar mi version que usé yo usando el sistema operativo de "berryboot"
 #
 #Esta es la unica solucion que he encontrado al aapanel en Docker.
 #Me ha llevado 3 dias sin dormir y mucha droga en el cuerpo.
