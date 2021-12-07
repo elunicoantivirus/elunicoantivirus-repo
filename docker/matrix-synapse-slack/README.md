@@ -1,1 +1,1 @@
-## NO USAR ESTE DOCKER !!! ( En Pruebas ) 👋
+## USAR ESTE DOCKER !!!  👋
