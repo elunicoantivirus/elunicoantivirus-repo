@@ -1,0 +1,17 @@
+version: "3.4"
+services:
+  duplicati:
+    image: linuxserver/duplicati
+    container_name: duplicati
+    environment:
+      - PUID=0
+      - PGID=0
+      - TZ=Europe/Madrid
+      - CLI_ARGS= #optional
+    volumes:
+      - ./appdata/config:/config
+      - ./backups:/backups
+      - ./source>:/source
+    ports:
+      - 8200:8200
+    restart: unless-stopped
