@@ -31,7 +31,7 @@ services:
 ```
 
 
-## Vídeo para tontos
+## Vídeo para tontos (desactualizado - tengo que subir uno nuevo, pero este fix que está en el repo es más cómodo en vez de moficiar en 3 sitios, solo es en uno)
 
 [video/movie de youtube](https://youtu.be/hZhoali6wSU) : https://youtu.be/hZhoali6wSU
 
